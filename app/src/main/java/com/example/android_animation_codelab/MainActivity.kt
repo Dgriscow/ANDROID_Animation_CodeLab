@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         //Reference to the button to go to the next view
         var nextButton = findViewById<Button>(R.id.button4)
 
+
         //Make the intent for the Swipe View
         nextButton.setOnClickListener {
             val nextScreen = Intent(this@MainActivity, PropertiesAnimationActivity::class.java)
