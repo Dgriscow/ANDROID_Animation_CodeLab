@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    app:layoutDescription="@xml/activity_main_scene"
+
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="256dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="279dp"
+        android:layout_height="347dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/rectanglecardexample"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="279dp"
+        android:layout_height="347dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/rectanglecardexample"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <ImageView
+        android:id="@+id/card3"
+        android:layout_width="279dp"
+        android:layout_height="347dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/rectanglecardexample"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+
+
+
